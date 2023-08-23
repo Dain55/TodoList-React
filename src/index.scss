@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+.container{
+    width: 1200px !important;
+    margin: auto;
+}
+.TodoForm {
+  display: flex;
+  margin: 50px 0px;
+  gap: 20px;
+
+  input{
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 15px;
+    height: 40px;
+    width: 205px;
+    border: 1px solid gray;
+  }
+}
+.table{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    margin: 20px 0px;
+}
+.todo-table{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
